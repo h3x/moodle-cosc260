@@ -117,7 +117,7 @@ let $questions = [{
         "b": "Blueprint",
         "c": "960",
         "d": "Foundation",
-        "answer": "a "
+        "answer": "a"
 },
 {
         "question" : "There are two request method types used to send form data to a server-side resource. What are they, and how do they encode / send data? Select one:",
