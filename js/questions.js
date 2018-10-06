@@ -21,7 +21,7 @@ let $questions = [{
         "b": "Static web pages do not change based on the user, whereas dynamic pages can generate content based on user interaction.",
         "c": "Dynamic web pages do not change based for each user, whereas static pages can generate content based on how users interact with the web page.",
         "d": "Both static and dynamic pages can generate content based on user interaction, but only dynamic pages can access databases and use APIs.",
-        "answer": "c"
+        "answer": "b"
 }, 
 {
         "question" : "What are the 2 most commonly used types of request methods? Select one:",
