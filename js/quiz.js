@@ -5,7 +5,6 @@ let $submit;
 
 $(()=>{
 $form = $('#quiz');
-console.log($form);
 $submit = $("#sub");
 
 $('#quiz').removeClass('hidden');
@@ -19,7 +18,7 @@ $submit.click(()=> {
     let $ans = $('input[name=answer]:checked').val();
     checkAnswer();
 });
-$question = $questions.pop();
+$question = $questions.splice(Math.floor(Math.random()*$questions.length), 1)[0];
 getQuestion();
 });
 
@@ -50,7 +49,7 @@ function checkAnswer(){
         $attempt[0]++;
         if($answer === $question.answer){ 
             $attempt[1]++;
-            $question = $questions.pop();
+            $question = $questions.splice(Math.floor(Math.random()*$questions.length), 1)[0];
             getQuestion();
         }
         else{
