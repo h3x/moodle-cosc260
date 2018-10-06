@@ -384,7 +384,7 @@ let $questions = [{
         "answer": "d"
 },
 {
-        "question" : "When uploading a file to a PHP script from an input element such as <input type='file' name='userfile' />, where on the server can the newly uploaded file data be found? ",
+        "question" : "When uploading a file to a PHP script from an input element such as &ltinput type='file' name='userfile' /&gt, where on the server can the newly uploaded file data be found? ",
         "a": "In the location specified in the $.ajax call by the client.",
         "b": "In the server's DocumentRoot with the name $_FILES['userfile'] ['name'].",
         "c": "In $_FILES['userfile']['data'].",
