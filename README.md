@@ -1,1 +1,1 @@
-# [quizes cosc260](https://h3x.github.io/moodle-cosc260/)
+# quiz [here](https://h3x.github.io/webdev-quiz/)
